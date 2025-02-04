@@ -1,5 +1,5 @@
 # Calorie Burnt Prediction Model
-<h1>Project Descruiption</h1>
+<h1>Project Description</h1>
 <p>The Calorie Burnt Prediction Model is a machine learning-based system designed to estimate the number of calories burned during a workout session. Using key physiological and activity-related parameters—gender, age, height, weight, workout duration, heart rate, and body temperature—the model predicts calorie expenditure with high accuracy. This enables individuals, fitness professionals, and healthcare providers to make data-driven decisions regarding physical activity, training intensity, and overall health managemen</p>
 <h1>Use Cases</h1>
 <ul>
