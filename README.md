@@ -6,7 +6,7 @@
 <ul>
   <li>Fitness & Wellness Apps – Personalizes workout recommendations based on predicted calorie expenditure</li>
 <li>Healthcare & Rehabilitation – Assists doctors and physiotherapists in tracking patient recovery and managing obesity-related conditions.</li>
-<li>Wearable Technology & Smart Devices – Enhances smartwatches and fitness trackers by providing real-time calorie burn estimates</li>
+<li>Wearable Technology & Smart Devices – Enhances smartwatches and fitness trackers by providing real-time calorie burn estimates</li></ul>
   <h2>Dataset</h2>
   <ul>
     <li>ID</li>
