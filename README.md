@@ -7,8 +7,7 @@
   <li>Fitness & Wellness Apps – Personalizes workout recommendations based on predicted calorie expenditure</li>
 <li>Healthcare & Rehabilitation – Assists doctors and physiotherapists in tracking patient recovery and managing obesity-related conditions.</li>
 <li>Wearable Technology & Smart Devices – Enhances smartwatches and fitness trackers by providing real-time calorie burn estimates</li>
-</ul>
-<h2>Dataset</h2>
+  <h2>Dataset</h2>
   <ul>
     <li>ID</li>
     <li>Gender</li>
@@ -19,29 +18,20 @@
     <li>Heart Rate</li>
     <li>Body Temperature</li>
   </ul>
-<h2>Libraries</h2>
-  <ul>
-    <li>Numpy</li>
-    <li>Pandas</li>
-    <li>Matplotlib</li>
-    <li>Seaborn</li>
-  </ul>
-  <h2>Models</h2>
-  <ul>
-    <li>Linear Regression</li>
-    <li>Lasso Regression</li>
-    <li>Random Forest Regressor</li>
-    <li>Decision Tree Regressor</li>
-    <li>XGBRegressor</li>
-    <li>CATBoostRegressor</li>
-  </ul>
-  <h2>Evaluation Metrics</h2>
-  <ul>
-    <li>R2 Score</li>
-    <li>Adjusted R2 Score</li>
-    <li>Mean Squared Error</li>
-    <li>Root Mean Squared Error</li>
-  </ul>
+  <h2>Problem</h2>
+  <p>Tracking calorie expenditure is essential for fitness and health monitoring, but existing methods often rely on inaccurate estimations or expensive wearable devices. A reliable, data-driven approach is needed to predict calorie burn using measurable physiological factors.</p>
+  <h2>Approach</h2>
+  <ul><li>Data Analysis: Processed a dataset with 15,000 rows and 9 columns, checking for multicollinearity using Variance Inflation Factor (VIF).</li>
+<li>Feature Selection: Implemented Recursive Feature Elimination (RFE) to select the most relevant features.</li>
+<li>Model Training: Developed and compared six regression models:Linear Regression (Baseline model),Lasso Regression,Random Forest Regressor,Decision Tree Regressor,XGBoost Regressor and CATBoost Regressor</li>
+<li>Evaluation Metrics: Used Mean Squared Error (MSE), Mean Absolute Error (MAE), and R² score to assess model performance, achieving 7 MSE and 0.98 R² score with XGBoost.</li>
+</ul>
+<h2>Impact</h2>
+<ul>
+  <li>Provided an accurate, data-driven alternative to predict calorie burn, reducing dependency on costly wearables.</li>
+<li>Achieved a high prediction accuracy (0.98 R²), making it suitable for fitness tracking applications.</li>
+<li>Demonstrated the power of machine learning in health analytics, with potential applications in fitness apps, diet planning, and personalized exercise recommendations.</li>
+</ul>  
 
 
 
