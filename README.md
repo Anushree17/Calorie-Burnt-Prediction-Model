@@ -32,6 +32,7 @@
 <li>Achieved a high prediction accuracy (0.98 R²), making it suitable for fitness tracking applications.</li>
 <li>Demonstrated the power of machine learning in health analytics, with potential applications in fitness apps, diet planning, and personalized exercise recommendations.</li>
 </ul>  
+<a href="https://calorie-burnt-prediction-model.streamlit.app/">Web App Link</a>
 
 
 
